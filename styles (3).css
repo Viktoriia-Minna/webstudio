@@ -26,11 +26,13 @@ a {
     }
 
     .Studio {
-         font-family:Raleway-Bold;
+         font-family: Roboto-Regular;
+        
     }
 
 .ULmain1{
     font-family: Roboto-Regular ;
+    display: flex;
 }
 
 .gmail {
@@ -50,8 +52,7 @@ table {
 ul {
     list-style: none;
 }
-
-    .Body1 {
+.Body1 {
     /* {width: 1600px; margin: 0 auto; */
 }
 
@@ -95,6 +96,8 @@ span {
 
     .sectionMain2 {
         font-family:Roboto-Regular ;
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
 
 .ULmain3 img {
@@ -231,4 +234,48 @@ span {
     width: 216px;
     height: 50px;
     margin: 0 auto;
+}
+
+.aMain1 {
+    font-family: Raleway-Bold;
+}
+
+.displayFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ULmain2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.ULmain2 li {
+    margin-right: 30px;
+}
+.ULmain1 li{
+    margin-right: 30px;
+}
+header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
+    color: white;
+    padding-left: 215px;
+    padding-right: 1249x;
+}
+.aFooter {
+    color: #0091ff;
+    font-family: Raleway-Bold;
+    font-size: 26px;
+     padding-left: 215px;
+    padding-right: 1249x;
+    
 }
